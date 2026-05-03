@@ -145,22 +145,6 @@ To **search across ALL uploaded PDFs** at once, set `source_file` to `null`:
 }
 ```
 
----
-
-## 🐛 Errors Faced & Fixed
-
-| Error | Cause | Fix |
-|---|---|---|
-| `ImportError: RetrievalQA` | Wrong import path in newer LangChain | Changed to `from langchain.chains import RetrievalQA` |
-| `resolution-too-deep` | Too many unpinned packages conflicting | Pinned versions in `requirements.txt` |
-| `langchain-pinecone not found` | Version didn't exist on Render's pip | Updated to correct available version |
-| `ResolutionImpossible` ⭐ **Toughest** | Pinned versions conflicting with each other | Removed ALL version pins, let pip auto-resolve |
-| `ModuleNotFoundError: routers` | Missing `__init__.py` or wrong run directory | Added `__init__.py` to `routers/` and `services/` |
-
-> ⭐ **Toughest error:** `ResolutionImpossible` — every pinned version fix broke something else. The fix was counterintuitive: remove all pins and trust pip to figure it out automatically.
-
----
-
 ## 📝 Notes
 
 - **Free tier cold starts**: Render free tier sleeps after 15 mins — first request may take ~30 seconds
