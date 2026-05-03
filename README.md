@@ -4,6 +4,8 @@ A production-ready **RAG (Retrieval Augmented Generation)** API — upload any P
 
 ---
 
+## LIVE LINK : https://rag-project-1-v3wt.onrender.com/docs
+
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
