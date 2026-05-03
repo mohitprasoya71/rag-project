@@ -1,28 +1,24 @@
-fastapi
-uvicorn[standard]
-python-multipart
-python-dotenv
-pydantic
+fastapi==0.111.0
+uvicorn==0.29.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+pydantic==2.7.1
 
 # LangChain
-langchain
-langchain-community
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-google-genai==2.1.4
+langchain-pinecone==0.2.0
+langchain-text-splitters==0.3.8
 
-langchain-google-genai
-langchain-pinecone
-langchain-text-splitters
 # Google Gemini
-google-generativeai
-langchain-google-genai
+google-generativeai==0.7.2
 
 # Pinecone
-pinecone-client
+pinecone-client==3.2.2
 
 # Supabase
-supabase
+supabase==2.4.6
 
-routers
 # PDF parsing
-pypdf
-fastapi
-
+pypdf==4.2.0
