@@ -1,6 +1,6 @@
 # 📄 RAG PDF API
 
-A production-ready **RAG (Retrieval Augmented Generation)** API — upload any PDF and ask questions about it in natural language. Built and deployed after 5+ failed builds and real debugging battles. 💪
+A production-ready **RAG (Retrieval Augmented Generation)** API — upload any PDF and ask questions about it in natural language. Built and deployed after 5+ failed builds and real debugging battles. 
 
 ---
 
